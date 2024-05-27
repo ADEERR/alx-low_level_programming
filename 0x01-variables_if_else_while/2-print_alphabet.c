@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include <stdio.h>
 
 /**
@@ -18,7 +17,7 @@ int main(void)
 		putchar(s[i]);
 		i++;
 	}
-	write(1, "\n", 1);
+	putchar('\n');
 	return (0);
 }
 
