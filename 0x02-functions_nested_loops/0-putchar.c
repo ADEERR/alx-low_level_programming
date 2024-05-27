@@ -13,10 +13,10 @@ int main(void)
 	i = 0;
 	while (s[i])
 	{
-		putchar(s[i]);
+		_putchar(s[i]);
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
 

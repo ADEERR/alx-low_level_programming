@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * print_alphabet - print the elphabet.
@@ -13,8 +13,8 @@ void print_alphabet(void)
 	i = 0;
 	while (s[i])
 	{
-		putchar(s[i]);
+		_putchar(s[i]);
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
