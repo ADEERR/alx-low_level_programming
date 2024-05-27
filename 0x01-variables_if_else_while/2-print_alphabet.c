@@ -1,13 +1,5 @@
 #include <unistd.h>
-
-/**
- * putchar - print all char.
- * @c : character.
- */
-void putchar(char c)
-{
-	write(1, &c, 1);
-}
+#include <stdio.h>
 
 /**
  * main - print the alphabet in lowercase .
@@ -26,7 +18,7 @@ int main(void)
 		putchar(s[i]);
 		i++;
 	}
-	ft_putchar('\n');
+	write(1, "\n", 1);
 	return (0);
 }
 
