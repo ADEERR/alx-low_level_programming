@@ -1,10 +1,10 @@
 #include <unistd.h>
 
 /**
- * ft_putchar - print all char.
+ * putchar - print all char.
  * @c : character.
  */
-void ft_putchar(char c)
+void putchar(char c)
 {
 	write(1, &c, 1);
 }
@@ -23,7 +23,7 @@ int main(void)
 	i = 0;
 	while (s[i])
 	{
-		ft_putchar(s[i]);
+		putchar(s[i]);
 		i++;
 	}
 	ft_putchar('\n');
